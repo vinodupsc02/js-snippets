@@ -13,11 +13,9 @@ const loopCardHeadTabs = (ele) => {
     ele.classList.remove('card-disabled');
 }
 
-
 let showTab = 'grad';
 let toggleEle = document.getElementById(showTab);
 toggleTabs(toggleEle);
-
 
 function toggleTabs(e) {
     const dataEle = e.id;

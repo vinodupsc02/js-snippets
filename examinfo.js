@@ -117,7 +117,7 @@ function loadAppearDetails(ele, appearCount) {
     for (var i = 1; i <= appearCount; i++) {
         loadAppCHtml += `
                                 <div class="col-md-3 col-sm-12">
-                                        <label for="appear_year" class="form-label">YEAR <span class="note">in format (YYYY) like <?= date('Y') - 1 ?> </span></label>
+                                        <label for="appear_year" class="form-label">YEAR <span class="note">in format (YYYY) like ${currentYear - 1} </span></label>
                                         <input type="number" class="form-control" min=0 max="${currentYear}" required value="" name="appear_year[]" id="appear_year${i}" maxlength="4"/>
                                     </div>
                                     <div class="col-md-3 col-sm-12">

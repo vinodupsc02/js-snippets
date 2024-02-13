@@ -1,5 +1,5 @@
 //tabs JS
-const uid = '<?=$uid?>';
+const uid = 'xxxxx12345';
 const hideCards = document.querySelectorAll('.hide-cards');
 const cardHeadTab = document.querySelectorAll('.icon-card-div');
 
