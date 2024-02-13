@@ -1,4 +1,4 @@
-let fetchStatus = false;
+let fetchStatus = true;
 const controller = new AbortController();
 const signal = controller.signal;
 
